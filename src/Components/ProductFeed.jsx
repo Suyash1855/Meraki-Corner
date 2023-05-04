@@ -4,10 +4,10 @@ import Shop from "./Shop";
 
 function ProductFeed() {
   return (
-    <div className="flex flex-wrap items-center justify-center mt-12 p-10 text-black">
+    <div className="flex flex-wrap items-center justify-center mt-20 p-10 text-black">
       {products.map((product) => (
         <Shop
-          id={product.id}
+          key={product.id}
           price={product.price}
           discription={product.discription}
           category={product.category}

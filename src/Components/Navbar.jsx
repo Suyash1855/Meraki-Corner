@@ -2,19 +2,26 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import { navLinks } from "@/Const";
-import { logo, menu, close, basket } from "@/public";
+// import { logo, menu, close, basket } from "../public/images";
+import { logo, menu, close, basket } from "../../public/images";
+
 import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import { selectItems } from "../Slices/basketSlice";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 function Navbar() {
+  const sessionData = useSession();
+  const session = sessionData ? sessionData[0] : 0;
+  // console.log(sessionData);
+  console.log(sessionData);
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const items = useSelector(selectItems);
 
   return (
     <nav className="bg-white flex items-center shadow top-0 fixed sm:px-16 py-6 px-6 w-full z-50 ">
-      <div className="flex w-full justify-between items-center max-w-7xl mx-auto">
+      <div className="flex w-full justify-between items-center max-w-6xl mx-auto">
         <Image
           src={logo}
           width={100}
@@ -35,6 +42,13 @@ function Navbar() {
             <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}
+        <li
+          onClick={signIn}
+          className="text-black font-medium cursor-pointer text-[18px] text-center"
+        >
+          {" "}
+          {`Hello, ${sessionData.user.name}`}
+        </li>
         <Link href="/Check">
           <Image
             src={basket}
@@ -72,7 +86,7 @@ function Navbar() {
               >
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>
-            ))}{" "}
+            ))}
             <Link href="/Check">
               <Image
                 src={basket}
