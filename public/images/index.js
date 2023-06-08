@@ -17,7 +17,7 @@ import Jar2 from "./Prod_Img/AestheticJar2.jpg";
 import Jar3 from "./Prod_Img/AestheticJar3.jpg";
 import Mason1 from "./Prod_Img/MasonJar1.jpg";
 import Mason2 from "./Prod_Img/MasonJar2.jpg";
-import SpotifyImg from "./Prod_Img/Spotify1.webp.jpg";
+import SpotifyImg from "./Prod_Img/Spotify1.jpg";
 import gift from "./gift-box.png";
 import Hoop1 from "./Prod_Img/Hoop1.jpg";
 import Hoop2 from "./Prod_Img/Hoop2.jpg";
