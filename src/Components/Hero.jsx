@@ -8,7 +8,7 @@ function Hero() {
 
   const basketIncrement = () => {
     setCtn(count + 1);
-    alert("Added to cart");
+    console.log("Added to cart");
   };
 
   return (
