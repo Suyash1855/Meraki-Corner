@@ -179,11 +179,11 @@ const products = [
   },
   {
     id: 8,
-    title: "Rasin Name Plate",
+    title: "Resin Name Plate",
     image:
       "https://res.cloudinary.com/dimitbyij/image/upload/v1686210352/NameFrame_rmjicx.jpg",
-    category: "sk c",
-    discription: "Potraits",
+    category: "",
+    discription: "",
     price: 2000,
     slideData: [
       {

@@ -5,7 +5,7 @@ import Shop from "./Shop";
 function ShopProductFeed() {
   return (
     <main className="">
-      <div className="bg-gradient-to-b  mb-[0px] from-[#F4E7D5] to-[#ffffff] h-[200px]"></div>
+      <div className="bg-gradient-to-b  mb-[-100px] from-[#F4E7D5] to-[#ffffff] h-[200px]"></div>
 
       <h1 className="text-black text-center mb-[40px] lg:text-[50px] text-[30px] ">
         All Products

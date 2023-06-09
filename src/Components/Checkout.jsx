@@ -36,9 +36,9 @@ function Checkout() {
     <main className=" ">
       <div className="bg-gradient-to-b  mb-[-500px] from-[#F4E7D5] to-[#ffffff] h-[500px]"></div>
 
-      <div className=" ">
-        <main className=" text-black  lg:flex flex-col max-w-screen-md mx-auto ">
-          <div className="flex-grow shadow-lg lg:mt-5 mt-[0px] ">
+      <div className=" z-[101]">
+        <main className=" text-black z-[101] lg:flex flex-col max-w-screen-md mx-auto ">
+          <div className="flex-grow shadow-lg z-[101] lg:mt-5 mt-[0px] ">
             {/* <Image width={1500} src={header} /> */}
             <div className="flex flex-col p-5 space-y-10  bg-white">
               <h2 className="flex justify-between items-center  text-3xl border-b pb-4">
@@ -69,7 +69,7 @@ function Checkout() {
             </div>
           </div>
           {items.length > 0 && (
-            <div className="flex flex-col my-5 items-center bg-white p-5 shadow-lg">
+            <div className="flex flex-col my-5 z-[104] items-center bg-white p-5 shadow-lg">
               {items.length > 0 && (
                 <>
                   <h2 className="whitespace text-center">
@@ -90,6 +90,7 @@ function Checkout() {
           )}
         </main>
       </div>
+      {/* <div className="bg-gradient-to-t block mt-[-400px] z-[100] md:hidden  mb-[00px] from-[#F4E7D5] to-[#ffffff] h-[500px]"></div> */}
     </main>
   );
 }

@@ -50,7 +50,7 @@ function HeroSection() {
                 <br />
               </span>{" "}
             </p>
-            <p className="mt-[-5px]">without fuss and chaos</p>
+            <p className="mt-[-5px]">without fuss and chaos!</p>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ function HeroSection() {
             />
           </div>
           <p className="max-w-[200px] font-oswald lg:text-[16px] text-center">
-            One app solution to all your handmade gifting curiosity.
+            One stop solution to all your handmade gifting curiosity.
           </p>
         </div>
         <div className="flex sm:pl-0 pr-[25px] justify-end sm:flex-col sm:justify-center items-center  gap-3 w-full sm:w-[200px]">

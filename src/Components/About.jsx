@@ -5,7 +5,7 @@ import { useState } from "react";
 import Footer from "./Footer";
 
 function About() {
-  const [showFullContent, setShowFullContent] = useState(false);
+  const [showFullContent, setShowFullContent] = useState(true);
   const toggleContent = () => {
     setShowFullContent(!showFullContent);
   };

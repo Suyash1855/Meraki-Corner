@@ -23,8 +23,8 @@ function ProductFeed() {
         </div>
       </div>
       <div className="flex my-[15px] justify-center">
-        <h1 className="lg:text-[50px] text-[30px]  text-black">
-          Our Customer Favorite
+        <h1 className="lg:text-[50px] text-[30px]   text-black">
+          Our Customer Favourite
         </h1>
       </div>
       <div className="flex flex-wrap items-center justify-center  p-10 text-black">
