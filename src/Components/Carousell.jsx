@@ -48,7 +48,7 @@ function Carousell() {
     >
       {slideData.map((slide, index) => (
         <div key={index}>
-          <img classname="w-full h-full" src={slide.image} alt={slide.alt} />
+          <img className="w-full h-full" src={slide.image} alt={slide.alt} />
         </div>
       ))}
     </Carousel>

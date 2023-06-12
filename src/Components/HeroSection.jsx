@@ -24,15 +24,17 @@ function HeroSection() {
           <Image
             className="lg:w-[600px] lg:h-[590px] w-full h-full"
             src={ButterFly1}
+            alt="butterfly"
           />
         </div>
         <div className="hidden md:block lg:w-[739px] w-full  lg:h-full md:h-[400px] z-0">
-          <Image className=" w-full h-full" src={ButterFly} />
+          <Image className=" w-full h-full" src={ButterFly} alt="butterfly" />
         </div>
         <div className="rounded-tl-[200px] min-w-[220px] min-h-[250px] rounded-tr-[200px] border-[#F4E7D5] lg:mt-[0px] md:mt-[-100px] mt-[-50px] lg:border-[15px] border-[8px] lg:ml-[-100px]  lg:w-1/3  z-[2] ">
           <Image
             className="rounded-tl-[200px] min-w-[220px] min-h-[270px] rounded-tr-[200px] lg:w-[350px] lg:h-[400px] md:w-[400px] md:h-[400px] w-[200px] h-[240px]  "
             src={img2}
+            alt="img"
           />
         </div>
         <div className=" justify-center items-center text-center md:text-start lg:w-2/3 w-full text-[#63341C] font-quattrocento h-full flex z-20 ">

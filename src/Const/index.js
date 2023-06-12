@@ -183,7 +183,8 @@ const products = [
     image:
       "https://res.cloudinary.com/dimitbyij/image/upload/v1686210352/NameFrame_rmjicx.jpg",
     category: "",
-    discription: "",
+    discription:
+      "The resin name plate is the for gifting and expressing your love  ",
     price: 2000,
     slideData: [
       {

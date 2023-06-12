@@ -19,7 +19,7 @@ function About() {
           <img
             className="w-full h-full"
             src="https://images.unsplash.com/photo-1604881746800-c6aa1699dcf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNwaXJpdHVhbGl0eXxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
+            alt="img"
           />
         </div>
         <div className="w-[300px] lg:w-[550px]">

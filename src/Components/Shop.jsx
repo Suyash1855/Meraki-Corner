@@ -66,7 +66,7 @@ function Shop({ id, title, price, discription, category, image, slideData }) {
         {slideData.map((slide, index) => (
           <Image
             key={index}
-            classname="max-w-[350px] max-h-[350px]"
+            className="max-w-[350px] max-h-[350px]"
             src={slide.image}
             alt={slide.alt}
           />

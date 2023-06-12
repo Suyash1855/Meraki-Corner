@@ -27,7 +27,7 @@ function Navbar() {
         <Image
           src={logo}
           className="w-[160px] h-[50px] bg-[#F4E7D5] object-contain "
-          alt=""
+          alt="img"
         />
       </div>
       <ul className="w-1/3 list-none items-center  h-full justify-center hidden lg:flex flex-row gap-5 lg:gap-12 ">
@@ -150,7 +150,7 @@ function Navbar() {
                 width={100}
                 height={100}
                 className="w-9 h-9 object-contain relative"
-                alt=""
+                alt="img"
               />
               <div className="bg-gray-200 absolute bottom-[63px] right-[53px] rounded-full h-5 w-5 flex items-center justify-center">
                 <p className="text-black">{items.length}</p>

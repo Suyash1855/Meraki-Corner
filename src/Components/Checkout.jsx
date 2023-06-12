@@ -47,7 +47,11 @@ function Checkout() {
                   className="text-[10px] gap-1 flex justify-center items-center"
                   href={"/"}
                 >
-                  <Image className="lg:w-4 lg:h-4 h-3 w-3" src={arrow} />
+                  <Image
+                    className="lg:w-4 lg:h-4 h-3 w-3"
+                    src={arrow}
+                    alt="back"
+                  />
                   Back to home page
                 </Link>
               </h2>

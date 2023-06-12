@@ -40,7 +40,7 @@ function ProductFeed() {
               slideData={product.slideData}
             />
           ) : (
-            <div></div>
+            ""
           )
         )}
       </div>
