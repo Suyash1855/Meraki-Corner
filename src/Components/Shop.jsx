@@ -55,7 +55,7 @@ function Shop({ id, title, price, discription, category, image, slideData }) {
   return (
     <div
       key={id}
-      className="p-5 flex flex-col bg-white mx-5 rounded-md px-4 mb-8 min-w-[200px] w-[400px] max-h-[700px]  shadow-md"
+      className="p-5 flex flex-col bg-white mx-5 rounded-md px-5 mb-8 min-w-[200px] w-[390px] max-h-[700px]  shadow-md"
     >
       <Carousel
         selectedItem={activeSlide}

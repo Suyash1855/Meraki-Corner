@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.4.4",
     "@reduxjs/toolkit": "^1.9.5",
     "@stripe/stripe-js": "^1.52.1",
     "autoprefixer": "10.4.14",
@@ -30,6 +29,7 @@
     "react-router-dom": "^6.10.0",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
+    "sharp": "^0.32.1",
     "stripe": "^12.4.0",
     "tailwindcss": "3.3.1"
   }

@@ -13,7 +13,7 @@ function About() {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-b  mb-[-80px] from-[#F4E7D5] to-[#ffffff] h-[200px]"></div>
+      <div className="bg-gradient-to-b  mb-[-150px] from-[#F4E7D5] to-[#ffffff] h-[200px]"></div>
       <div className="text-black flex lg:my-[150px] mt-[100px] mb-[100px] lg:flex-row flex-col items-center lg:items-start justify-center gap-20 ">
         <div className="h-[600px] lg:h-[650px]  ">
           <img

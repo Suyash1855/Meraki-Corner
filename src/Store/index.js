@@ -1,6 +1,3 @@
-import configureStore from "@reduxjs/toolkit";
-import { Provider } from "react-redux";
-
 import { createSlice } from "@reduxjs/toolkit";
 
 const cartSlice = createSlice({

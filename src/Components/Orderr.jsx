@@ -1,6 +1,6 @@
 import React from "react";
 
-function Orderr({ id, amount, items, timestamp, images }) {
+function Orderr({ id, amount, items, timestamp }) {
   return (
     <div className="relative border rounded-md">
       <div className="flex items-center p-5  text-sm">

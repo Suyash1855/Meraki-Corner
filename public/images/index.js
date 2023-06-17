@@ -5,7 +5,7 @@ import basket from "./card.png";
 import logo from "./logo1.png";
 import favicon from "./logo.jpg";
 import Bg from "./Bg.jpg";
-import header from "./header.jpg";
+
 import arrow from "./left-arrow.png";
 import ButterFly from "./Div1.jpg";
 import ButterFly1 from "./Div1(1).jpg";
@@ -62,7 +62,6 @@ export {
   ButterFly1,
   img2,
   gift,
-  header,
   NameFrame,
   menu,
   close,
