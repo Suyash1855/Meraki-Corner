@@ -12,7 +12,6 @@
     "@material-tailwind/react": "^2.0.4",
     "@reduxjs/toolkit": "^1.9.5",
     "@stripe/stripe-js": "^1.52.1",
-    "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
     "cloudinary": "^1.37.0",
     "firebase": "^9.21.0",
@@ -22,7 +21,6 @@
     "next": "^13.4.6",
     "next-auth": "^4.22.1",
     "numeral": "^2.0.6",
-    "postcss": "^8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
@@ -31,7 +29,11 @@
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
     "sharp": "^0.32.1",
-    "stripe": "^12.4.0",
+    "stripe": "^12.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
     "tailwindcss": "^3.3.2"
   }
 }
