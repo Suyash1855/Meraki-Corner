@@ -13,7 +13,7 @@ function Footer() {
         className="bg-transparent mt-[100px] text-black justify-evenly relative w-100 h-[250px] z-[101] p-5 flex  items-center"
       >
         <div className="justify-center flex flex-col z-[100] items-center">
-          <h2 className="lg:text-[35px] text-[23px]  mb-1">
+          <h2 className="lg:text-[35px] sm:text-[23px] text-[18px]  mb-1">
             The Meraki Corner
           </h2>
           <p className="text-xs lg:text-[16px] md:block hidden lg:min-w-[500px] text-center mb-6">
@@ -76,9 +76,12 @@ function Footer() {
         <p className="">
           Copywrite @{currentYear}. Developed by{" "}
           <span
-            className="cursor-pointer font-medium"
+            className="cursor-pointer hover:underline font-medium"
             onClick={() =>
-              window.open("https://www.instagram.com/themerakicorner/", "blank")
+              window.open(
+                "https://portfolio-website-nu-liart.vercel.app/",
+                "blank"
+              )
             }
           >
             SUYASH
